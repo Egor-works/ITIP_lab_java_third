@@ -69,7 +69,7 @@ public class AStarState {
                 openPeaks.put(location, newWP);
                 return true;
             }
-            return false;
+            else return false;
         }
         else {
             openPeaks.put(location, newWP);
